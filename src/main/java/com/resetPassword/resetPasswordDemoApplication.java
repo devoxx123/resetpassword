@@ -10,9 +10,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @ComponentScan({ "com.resetPassword" })
 @EntityScan({ "com.resetPassword"})
 @EnableJpaRepositories({ "com.resetPassword"})
-public class resetPasswordDemoApplication {
+public class resetPasswordApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(resetPasswordDemoApplication .class, args);
+		SpringApplication.run(resetPasswordApplication .class, args);
 	}
 }
